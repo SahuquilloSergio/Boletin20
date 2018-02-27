@@ -38,7 +38,7 @@ public class Boletin20 {
                 break;
         
     }
-}while(op<7);
+}while(op>6);
      
     }
 }

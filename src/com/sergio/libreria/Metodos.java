@@ -1,13 +1,17 @@
 package com.sergio.libreria;
 
+//import java.awt.Toolkit;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
+//import javax.sound.sampled.AudioSystem;
+//import javax.sound.sampled.Clip;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
+//import javax.sound.sampled.LineUnavailableException;
+//import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JOptionPane;
 
 public class Metodos {
@@ -113,5 +117,22 @@ public class Metodos {
         JOptionPane.showMessageDialog(null,"Libros sen unidades eliminados");
     }
 
+//    public void salir() throws LineUnavailableException, InterruptedException, UnsupportedAudioFileException, IOException{
+//        Clip sonido = AudioSystem.getClip();
+//        File a = new File("C:\\Users\\serxa\\Downloads\\WDelfino_Plaza_-_Super_Mario_Sunshine.wav");
+//        sonido.open(AudioSystem.getAudioInputStream(a));
+//        String aux="pera";
+//        String clave =(JOptionPane.showInputDialog("Clave para salir"));
+//        if(aux.equals(clave)){
+//            System.exit(0);
+//        }else{
+//            JOptionPane.showMessageDialog(null, "ERR*OR +D3L SIST3-MA\n AUTO`DESÇTRUCÑION EN 3...2...1...");
+//            System.out.println("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM");
+//            sonido.start();
+//            Thread.sleep(100000000);
+//            sonido.close();
+//        }
+//        
+//    }
 
 }
